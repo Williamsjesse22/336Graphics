@@ -1,0 +1,10 @@
+^C:\USERS\VWILL\DOCUMENTS\FALL 2025 SCHOOL\336\RAYTRACER\BUILD\CMAKEFILES\4C652256AA3E7E20C5FFAC17105940B1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/vwill/Documents/Fall 2025 School/336/RayTracer" "-BC:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/build/raytracer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
