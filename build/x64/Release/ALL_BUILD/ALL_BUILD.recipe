@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\build\Release\raytracer.exe</FullPath>
+      <FullPath>C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\build\Release\raytracer.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

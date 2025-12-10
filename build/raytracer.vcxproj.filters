@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\src\main.cpp">
+    <ClCompile Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\src\stb_image_impl.cpp">
+    <ClCompile Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\src\stb_image_impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\src\tiny_obj_loader_impl.cpp">
+    <ClCompile Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\src\tiny_obj_loader_impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\vwill\Documents\Fall 2025 School\336\RayTracer\336Graphics\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{E0D1BAD5-B899-3514-98E1-8845A0D9E664}</UniqueIdentifier>
+      <UniqueIdentifier>{8B45D9F5-D2F3-36E3-A89D-0EF76FC302E0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

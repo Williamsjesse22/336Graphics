@@ -1,3 +1,3 @@
-C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/build/CMakeFiles/raytracer.dir
-C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/336Graphics/build/CMakeFiles/raytracer.dir
+C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/336Graphics/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/vwill/Documents/Fall 2025 School/336/RayTracer/336Graphics/build/CMakeFiles/ZERO_CHECK.dir
