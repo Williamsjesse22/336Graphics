@@ -26,8 +26,8 @@ inline double degrees_to_radians(double degrees)
 // Random number generator (deterministic per run)
 inline double random_double()
 {
-    static thread_local std::mt19937 generator(std::random_device{}());
-    static thread_local std::uniform_real_distribution<double> distribution(0.0, 1.0);
+    thread_local static std::mt19937 generator(std::random_device{}());
+    thread_local static std::uniform_real_distribution<double> distribution(0.0, 1.0);
     return distribution(generator);
 }
 

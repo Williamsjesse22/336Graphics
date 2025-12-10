@@ -3,6 +3,7 @@
 
 #include "rtweekend.h"
 #include "vec3.h"
+#include "perlin.h"
 #include <memory>
 
 class texture
@@ -49,6 +50,26 @@ public:
             return odd->value(u, v, p);
         else
             return even->value(u, v, p);
+    }
+};
+
+// ------------------------------------------------------------
+// Perlin noise texture (for clouds / foggy materials)
+// ------------------------------------------------------------
+class noise_texture : public texture
+{
+public:
+    perlin noise;
+    double scale;
+
+    noise_texture() : scale(1.0) {}
+    noise_texture(double sc) : scale(sc) {}
+
+    color value(double u, double v, const point3 &p) const override
+    {
+        // Classic RTW-style "marble / cloud" turbulence
+        auto t = 0.5 * (1.0 + sin(scale * p.z() + 10.0 * noise.turb(p)));
+        return color(1.0, 1.0, 1.0) * t; // grayscale foggy look
     }
 };
 
